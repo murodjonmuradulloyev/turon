@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.ota{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.logo{
+    flex-grow: 2;
+}
+
+.navbarota{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 4;
+    
+}
+
+
+.navbar ul li{
+
+}
+
+.navbar ul li a{
+    display: flex;
+text-decoration: none;
+    color: #352524;
+}
+
+.navbar select{
+width: 157px;
+height: 42px;
+background: rgba(51, 51, 51, 0.08);
+border-radius: 30px;
+border: none;
+padding: 10px;
+}
+
+.navbar select:focus{
+outline: none;
+}
+
+.navbar button{
+    width: 167px;
+    height: 42px;
+    background: #DF953A;
+border-radius: 30px;
+border: none;
+}
+
+.navbar button a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.kulirang{
+    width: 100%;
+    height: auto;
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qidiruv{
+margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.qidiruv input{
+    width: 518px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 0 40px;
+    border: none;
+}
+
+.qidiruv img{
+    position: relative;
+    left: 30px;
+}
+
+.qidiruv button{
+    position: relative;
+    right: 140px;
+    width: 142px;
+    height: 70px ;
+    background: #DF953A;
+    border-radius: 10px;
+    border: none;
+}
+
+.qidiruv input:focus{
+    outline: none;
+}
+
+
+.mahsulotlar{
+    border-radius: 15px;
+    flex-wrap: wrap;
+    width: 1584px;
+    height: 2034px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.bugdoycha{
+    width: 90%;
+    height: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bugdoycha p{
+    width: 201px;
+height: 41px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+letter-spacing: 0.06em;
+color: #000000;
+}
+
+
+.bugdoycha button{
+    border: none;
+    background-color: #fff;
+}
+
+#aylantir{
+transform: rotateZ(-180deg);
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    width: 427px;
+    height: 546px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #F9F9F9;
+    border-radius: 15px;
+    margin: 15px;
+    position: relative;
+
+}
+
+.cards .card p {
+    width: 80%;
+    height: 70px;
+    line-height: 35px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.cards .card .card_button {
+    width: 80%;
+}
+
+
+.cards .card .card_button button {
+    background: #FFFFFF;
+    border: 1px solid #DF953A;
+    border-radius: 10px;
+    width: 157px;
+    height: 53px;
+    align-self: flex-start;
+}
+
+.back_bugdoy {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.bugdoycha2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bugdoycha2 img{
+    margin: 20px;
+}
+
+
+.ung{
+    position: relative;
+    left: 30rem;
+    top: 10rem;
+    width: 40%;
+
+}
+
+.chap{
+    position: relative;
+    right: 25rem;
+    top: -18rem;
+    width: 60%;
+}
+
+.chap p{
+    width: 702px;
+height: 258px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 43px;
+/* or 179% */
+
+
+color: #352524;
+}
+
+
+.chap button{
+    width: 189px;
+height: 65px;
+
+background: #DF953A;
+border-radius: 12px;
+border: none;
+}
+
+.bugdoycha2 p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+/* identical to box height */
+
+letter-spacing: 0.06em;
+
+color: #000000;
+}
+
+
+.bizbilan{
+    width: 100%;
+    height: 795px;
+    background: #fff;
+}
+
+
+.chap2 {
+    position: relative;
+    left: 30rem;
+    top: -24rem;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+
+.ung2{
+    position: relative;
+    left: 59rem;
+    top: 7rem;
+    width: 50%;
+}
+
+.chap2 p{
+    align-items: center;
+}
+
+.chap2 img{
+    position: relative;
+    right: 28px;
+    top: 25px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+letter-spacing: 0.06em;
+
+color: #352524;
+}
+
+.navbar2{
+
+    width: 100%;
+    height: 273px;
+    background: #fff;
+    align-items: center;
+    display: flex;
+}
+
+.logo2{
+    position: relative;
+    left: 12rem;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbar2 ul{
+    position: relative;
+    left: 12rem;
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style:  none;
+    }
+
+    .navbar2 ul li a{
+        text-decoration: none;
+    }
+
+    .navbar2 .bugdoy img{
+        position: absolute;
+    }
+
